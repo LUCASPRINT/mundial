@@ -16,7 +16,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/background.png");
+    background-image: url("img/protótipo.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -33,10 +33,29 @@ body {
     padding: 1em;
     color: var(--botao-azul);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--botao-principal)
 }
+
+.container__aviso {
+    font-size:12px;
+    color:var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700px;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+
+}
+
+
 
